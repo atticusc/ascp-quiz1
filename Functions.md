@@ -69,6 +69,16 @@ doSomething();
 ```
 # Closures
 
+closures: calling a function with a variable:
+ ```javascript
+ function myFunc(){
+    var c = int(random(0, 255));
+    console.log(c); 
+    }
+    
+var colornum = myFunc();
+colornum;
+```
 
 
 
