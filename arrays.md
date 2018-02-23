@@ -101,6 +101,23 @@ plants.pop();
 console.log(plants);
 // expected output: Array ["broccoli", "cauliflower", "cabbage"]
   ```
-  
- 3. length
- 4. [`...`]
+ 3. length gets the length of the array and returns an number
+ ```javascript
+ var myArr = [0,1,2,3,4,5];
+ console.log(myArr.length);
+ //expected output: 6
+ ```
+ 
+ 4. [`...`] gets a spcific element from the array. 
+ ```javascript
+ var myArr = [0,1,2,3];
+ console.log(myArr[0]);
+ console.log(myArr[1]);
+ console.log(myArr[2]);
+ console.log(myArr[3]);
+ //expected output: 0
+ //expected output: 1
+ //expected output: 2
+ //expected output: 3
+ ```
+
