@@ -73,10 +73,17 @@ console.log(array.some(even));
 
 ## Other Important Methods
 
-  1. push `drawXCell()` is a function that draws an XCell to the screen. 
+  1. push(`...`) is a function that adds new elements to the end of an array. 
   ```javascript
-  for (var x = 1; x < 3; x++){
-  
+var myArr = [1,2,3] ;
+myArr.push(4);
+console.log(myArr);
+//expected output: [1,2,3,4]
+
+var myArr2 = [[1,2],[3,4]];
+myArr2.push([5,6]);
+console.log(myArr2);
+expected output: [[1,2],[3,4],[5,6]]
   }
   ```
   2. pop() this method removes the last value from the existing array. 
@@ -94,3 +101,6 @@ plants.pop();
 console.log(plants);
 // expected output: Array ["broccoli", "cauliflower", "cabbage"]
   ```
+  
+ 3. lenght
+ 4. [`...`]
