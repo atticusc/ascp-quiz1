@@ -72,8 +72,10 @@ var doubles = numbers.map(function(num) {
   ```
   5. some 
   Why some? It's great method to test whether at least one element in the array passes the test implemented by the provided function
-  
-  
+  ```javascript
+  [2, 5, 8, 1, 4].some(x => x > 10);  // false
+[12, 5, 8, 1, 4].some(x => x > 10); // true
+  ```
   
   6. sort
   Why sort? It's the thing to use if you want to put the values of an array in a different order
