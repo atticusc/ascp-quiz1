@@ -1,6 +1,11 @@
 # Arrays
 
 ## Declaring and Assigning values 
+Declarig value: `var myArr;`
+Assigning value: `myArr=[1,2,3,4,5,6,7];`
+Declaring and Assigning value: `var myArr=[1,2,3,4,5,6,7];`
+
+To get values out of array: `myArr[2];` --> // this returns 3 `myArr[0];`
 
 ## Array looping methods
 
@@ -12,4 +17,4 @@
 
 ## Other Important Methods
 
-  1. push
+1. push
