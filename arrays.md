@@ -102,5 +102,5 @@ console.log(plants);
 // expected output: Array ["broccoli", "cauliflower", "cabbage"]
   ```
   
- 3. lenght
+ 3. length
  4. [`...`]
