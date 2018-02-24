@@ -25,4 +25,14 @@ var a = 1
 ```
 
 ## Scope
+1. Global variable:
+```javascript
+var a
+function draw(){
 
+}```
+2. Locoal variable:
+```javascript
+function draw(){
+var a
+}```
