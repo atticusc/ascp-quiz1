@@ -1,7 +1,4 @@
 # Functions
-## What is a Function?
-
-Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.
 
 ## Need to Know
 
@@ -35,20 +32,11 @@ Returning a parameter within a function is done by
 
 ```javascript
 
-function doSomething(x,y){
-return x*y;
+function doSomething(x){
+return x*5;
 }
 
 ```
-If the doSomething Function were to be called
-
-```javascript
-
-doSomething(4,6)
-24
-```
-
-
 Functions can contain things such as `for` and `if` which are called by
 ```javascript
 
@@ -79,6 +67,28 @@ closures: calling a function with a variable:
 var colornum = myFunc();
 colornum;
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+closures: calling a function with a variable:
+ ```javascript
+  function myFunc(){
+     var c = int(random(0, 255));
+     console.log(c);
+     }
+     
+     var colornum = myFunc();
+     colornum;
 
 
 
